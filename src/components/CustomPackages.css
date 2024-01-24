@@ -1,0 +1,124 @@
+/* .custom-packages {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .custom-packages h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .package {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  .package:hover{
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  .package img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .package h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  /* .package p {
+    font-size: 1rem;
+    
+  } */
+  /* .package {
+    position: relative;
+  }
+  
+  .price {
+    position: absolute;
+    top: -19px;
+    right: 36px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 2.0rem;
+    font-weight: bold;
+  } */ 
+  .custom-packages {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .package {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .package img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .package h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .package p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .package .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+  }
+  
+  .package:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .package:hover h3 {
+    color: #ff6600;
+  }
+  

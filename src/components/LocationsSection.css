@@ -1,0 +1,134 @@
+
+.locations-section {
+    /* padding: 50px 0; */
+    text-align: center;
+  }
+  
+  .locations-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .locations-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+  }
+  
+  .location {
+    /* flex: 0 0 calc(33.33% - 30px); */
+    flex: 0 0 25%;
+    margin-bottom: 40px;
+    padding: 9px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 56px;
+    height:70vh;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .location-image:hover{
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .location-image img {
+    width: 56vh;
+    height: 69vh;
+    border-radius: 52px;
+  }
+  
+  .location-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px 0;
+    font-size: 1.2rem;
+    border-radius: 33px;
+  }
+
+
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 89vh;
+    width: 1327px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media (max-height:800px) { 
+.model{
+    left: -167px;
+    width: 107vh;
+    height: 143%;
+  }
+  /* .modal-content {
+    width: 312px;
+    height: 76vh;
+    left: 206px;
+    top: 435px;
+  } */  
+}
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+
+.search-bar-focused {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.input2{
+  width: 669px;
+  padding: 8px;
+  margin: -15px -36px 35px -85px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(21, 74, 74);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.input2::placeholder{
+  color:white;
+  text-align: center;
+}
